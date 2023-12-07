@@ -3,8 +3,8 @@
 # product partition
 
 # Camera extensions
-product/app/PixelCameraServicesRaven/PixelCameraServicesRaven.apk;PRESIGNED
 product/etc/permissions/androidx.camera.extensions.impl.xml
+product/priv-app/PixelCameraServicesRaven/PixelCameraServicesRaven.apk;PRESIGNED
 
 # IMS
 product/etc/sysconfig/allowlist_com.shannon.imsservice.xml
