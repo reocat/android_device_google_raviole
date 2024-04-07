@@ -1,0 +1,35 @@
+From 871794961d7270d3b6244fa4967849baeb221e8e Mon Sep 17 00:00:00 2001
+From: Michael Bestas <mkbestas@lineageos.org>
+Date: Mon, 8 Apr 2024 01:24:41 +0300
+Subject: [PATCH] raviole: Add GoogleCamera_6gb_or_more_ram.xml
+
+Change-Id: I77d4457cd67b9ae2bd554bc077fb9a0f4c2357ea
+---
+ oriole/proprietary-files.txt | 1 +
+ raven/proprietary-files.txt  | 1 +
+ 2 files changed, 2 insertions(+)
+
+diff --git a/oriole/proprietary-files.txt b/oriole/proprietary-files.txt
+index e7e1835..e1eca09 100644
+--- a/oriole/proprietary-files.txt
++++ b/oriole/proprietary-files.txt
+@@ -35,6 +35,7 @@ product/etc/sysconfig/allowlist_com.shannon.imsservice.xml
+ 
+ # Permissions
+ product/etc/permissions/privapp-permissions-google-p.xml:product/etc/permissions/privapp-permissions-google-p-lineage.xml
++product/etc/sysconfig/GoogleCamera_6gb_or_more_ram.xml
+ product/etc/sysconfig/google-hiddenapi-package-whitelist.xml
+ product/etc/sysconfig/nexus.xml
+ product/etc/sysconfig/pixel_experience_2017.xml
+diff --git a/raven/proprietary-files.txt b/raven/proprietary-files.txt
+index 812e940..f115dcc 100644
+--- a/raven/proprietary-files.txt
++++ b/raven/proprietary-files.txt
+@@ -35,6 +35,7 @@ product/etc/sysconfig/allowlist_com.shannon.imsservice.xml
+ 
+ # Permissions
+ product/etc/permissions/privapp-permissions-google-p.xml:product/etc/permissions/privapp-permissions-google-p-lineage.xml
++product/etc/sysconfig/GoogleCamera_6gb_or_more_ram.xml
+ product/etc/sysconfig/google-hiddenapi-package-whitelist.xml
+ product/etc/sysconfig/nexus.xml
+ product/etc/sysconfig/pixel_experience_2017.xml
