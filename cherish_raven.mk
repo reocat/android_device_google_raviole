@@ -1,12 +1,12 @@
 #
-# Copyright (C) 2024 The Derpfest Project
+# Copyright (C) 2024 CherishOS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common Derp stuff.
+# Inherit some common CherishOS stuff.
 TARGET_DISABLE_EPPE := true
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 TARGET_GAPPS_ARCH := arm64
 IS_PHONE := true
 DERP_BUILDTYPE := Official
@@ -25,7 +25,7 @@ include device/google/raviole/raven/device-lineage.mk
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 6 Pro
-PRODUCT_NAME := derp_raven
+PRODUCT_NAME := cherish_raven
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 3120

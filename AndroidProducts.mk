@@ -37,8 +37,8 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_whitefin_hwasan.mk \
     $(LOCAL_DIR)/aosp_whitefin_64.mk \
     $(LOCAL_DIR)/factory_whitefin.mk \
-    $(LOCAL_DIR)/derp_oriole.mk \
-    $(LOCAL_DIR)/derp_raven.mk
+    $(LOCAL_DIR)/cherish_oriole.mk \
+    $(LOCAL_DIR)/cherish_raven.mk
 
 COMMON_LUNCH_CHOICES := \
     aosp_slider-trunk_staging-userdebug \
