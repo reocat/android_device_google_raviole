@@ -17,6 +17,9 @@
 # Restrict the visibility of Android.bp files to improve build analysis time
 $(call inherit-product-if-exists, vendor/google/products/sources_pixel.mk)
 
+# Enable JamesDSP
+$(call inherit-product, packages/apps/JamesDSP/config.mk)
+
 TARGET_KERNEL_DIR ?= device/google/raviole-kernel
 TARGET_BOARD_KERNEL_HEADERS := device/google/raviole-kernel/kernel-headers
 
