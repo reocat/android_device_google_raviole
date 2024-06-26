@@ -17,6 +17,8 @@ include device/google/raviole/raven/device-lineage.mk
 TARGET_FACE_UNLOCK_SUPPORTED := true
 BLAZE_BUILD_TYPE := UNOFFICIAL
 BLAZE_MAINTAINER := reocat
+TARGET_SUPPORTS_BLUR := true
+TARGET_UDFPS_ANIMATIONS := true
 EXTRA_UDFPS_ANIMATIONS := true
 WITH_GAPPS := true
 
