@@ -1,14 +1,21 @@
 # Inherit some common stuff.
 TARGET_DISABLE_EPPE := true
-$(call inherit-product, vendor/calyx/config/common_phone.mk)
+$(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/gs101/calyx_common.mk)
 $(call inherit-product, device/google/raviole/oriole/device-calyx.mk)
 $(call inherit-product, device/google/raviole/aosp_oriole.mk)
 
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_BOOT_ANIMATION_RES := 1080
+BLAZE_BUILD_TYPE := UNOFFICIAL
+BLAZE_MAINTAINER := reocat
+EXTRA_UDFPS_ANIMATIONS := true
+WITH_GAPPS := true
+
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := calyx_oriole
+PRODUCT_NAME := blaze_oriole
 PRODUCT_MODEL := Pixel 6
 PRODUCT_BRAND := google
 
