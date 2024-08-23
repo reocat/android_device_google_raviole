@@ -14,6 +14,26 @@ $(call inherit-product, device/google/gs101/lineage_common.mk)
 
 include device/google/raviole/raven/device-lineage.mk
 
+# PixelStar stuff goes here:
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_GAPPS_ARCH := arm64
+TARGET_FACE_UNLOCK_SUPPORTED := true
+USE_PIXEL_CHARGER := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_SUPPORTS_QUICK_TAP  := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_INCLUDE_CARRIER_SETTINGS := true
+TARGET_INCLUDE_PIXEL_IMS := true
+TARGET_INCLUDE_PIXEL_EUICC := true
+TARGET_INCLUDE_CARRIER_SERVICES := true
+TARGET_SUPPORTS_NOW_PLAYING := true
+TARGET_GOOGLE_CAMERA_LARGE_RAM := true
+TARGET_SUPPORTS_GOOGLE_BATTERY := true
+TARGET_SUPPORTS_ADPATIVE_CHARGING := true
+TARGET_SUPPORTS_DREAMLINER := true
+TARGET_SUPPORTS_CLEAR_CALLING := true
+PIXELSTAR_BUILD_TYPE := unofficial
+
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 6 Pro
