@@ -3,7 +3,7 @@
         {
             "Name":"battery",
             "Type":"BATTERY",
-            "HotThreshold":["NAN", "NAN", "NAN", "NAN", "NAN", "NAN", "60.0"],
+            "HotThreshold":["NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "60.0"],
             "Multiplier":0.001
         },
         {
@@ -27,7 +27,7 @@
         {
             "Name":"usb_pwr_therm2",
             "Type":"UNKNOWN",
-            "HotThreshold":["NAN", "35.0", "NAN","NAN", "NAN", "NAN", "NAN"],
+            "HotThreshold":["NaN", "35.0", "NaN","NaN", "NaN", "NaN", "NaN"],
             "HotHysteresis":[0.0, 0.9, 0.0, 0.0, 0.0, 0.0, 0.0],
             "TempPath":"/dev/thermal/tz-by-name/usb_pwr_therm2/adc_channel/channel_temp",
             "Multiplier":0.001,
@@ -43,7 +43,7 @@
         {
             "Name":"quiet_therm",
             "Type":"UNKNOWN",
-            "HotThreshold":["NAN", "32.9", "NAN", "NAN", "NAN", "NAN", "NAN"],
+            "HotThreshold":["NaN", "32.9", "NaN", "NaN", "NaN", "NaN", "NaN"],
             "HotHysteresis":[0.0, 0.9, 0.0, 0.0, 0.0, 0.0, 0.0],
             "TempPath":"/dev/thermal/tz-by-name/quiet_therm/adc_channel/channel_temp",
             "Multiplier":0.001,
@@ -103,22 +103,21 @@
             "Formula":"MAXIMUM",
             "Combination":["VIRTUAL-QI-GNSS", "VIRTUAL-QI-BATT", "VIRTUAL-USB2-DISP", "VIRTUAL-QUIET-BATT"],
             "Coefficient":["1.0", "1.0", "1.0", "1.0"],
-            "Offset":-448,
-            "HotThreshold":["NAN", 39.0, 41.0, 43.0, 45.0, 47.0, 55.0],
+            "HotThreshold":["NaN", 36.0, 41.0, 43.0, 45.0, 47.0, 55.0],
             "HotHysteresis":[0.0, 1.9, 1.9, 1.9, 1.9, 1.9, 1.9],
             "Multiplier":0.001,
             "PollingDelay":60000,
             "PassiveDelay":7000,
             "PIDInfo": {
-                "K_Po":["NAN", "NAN", 101, "NAN", "NAN", "NAN", "NAN"],
-                "K_Pu":["NAN", "NAN", 101, "NAN", "NAN", "NAN", "NAN"],
-                "K_I":["NAN", "NAN", 21, "NAN", "NAN", "NAN", "NAN"],
-                "K_D":["NAN", "NAN", 0, "NAN", "NAN", "NAN", "NAN"],
-                "I_Max":["NAN", "NAN", 1099, "NAN", "NAN", "NAN", "NAN"],
-                "S_Power":["NAN", "NAN", 2404, "NAN", "NAN", "NAN", "NAN"],
-                "MinAllocPower":["NAN", "NAN", 0, "NAN", "NAN", "NAN", "NAN"],
-                "MaxAllocPower":["NAN", "NAN", 5519, "NAN", "NAN", "NAN", "NAN"],
-                "I_Cutoff":["NAN", "NAN", 6, "NAN", "NAN", "NAN", "NAN"],
+                "K_Po":["NaN", "NaN", 101, "NaN", "NaN", "NaN", "NaN"],
+                "K_Pu":["NaN", "NaN", 101, "NaN", "NaN", "NaN", "NaN"],
+                "K_I":["NaN", "NaN", 21, "NaN", "NaN", "NaN", "NaN"],
+                "K_D":["NaN", "NaN", 0, "NaN", "NaN", "NaN", "NaN"],
+                "I_Max":["NaN", "NaN", 1099, "NaN", "NaN", "NaN", "NaN"],
+                "S_Power":["NaN", "NaN", 2404, "NaN", "NaN", "NaN", "NaN"],
+                "MinAllocPower":["NaN", "NaN", 0, "NaN", "NaN", "NaN", "NaN"],
+                "MaxAllocPower":["NaN", "NaN", 5519, "NaN", "NaN", "NaN", "NaN"],
+                "I_Cutoff":["NaN", "NaN", 6, "NaN", "NaN", "NaN", "NaN"],
                 "I_Default":1099
             },
             "ExcludedPowerInfo": [
@@ -167,7 +166,7 @@
             "TriggerSensor": "usb_pwr_therm2",
             "Combination":["usb_pwr_therm2", "USB2-MINUS-USB", "USB2-MINUS-QI"],
             "Coefficient":["35000", "2000", "10000"],
-            "HotThreshold":["NAN", "NAN", "NAN", "NAN", "3.0", "NAN", "NAN"],
+            "HotThreshold":["NaN", "NaN", "NaN", "NaN", "3.0", "NaN", "NaN"],
             "BindedCdevInfo": [
                 {
                     "CdevRequest": "usbc-port",
